@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Frontend específico
+front-end/.next/
+front-end/dist/
+front-end/.env.local
+front-end/.env
+
+# Backend específico
+back-end/target/
+back-end/.mvn/
+back-end/mvnw
+back-end/mvnw.cmd
+back-end/.env
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git repositories (vamos copiar o conteúdo, não os .git)
+*/.git/
